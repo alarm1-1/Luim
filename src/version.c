@@ -1,6 +1,6 @@
 /* vi:set ts=8 sts=4 sw=4 noet:
  *
- * VIM - Vi IMproved		by Bram Moolenaar
+ * LUIM - Console based Lua text editor		by Bram Moolenaar
  *
  * Do ":help uganda"  in Vim to read copying and usage conditions.
  * Do ":help credits" in Vim to see a list of people who contributed.
@@ -2835,14 +2835,14 @@ intro_message(
     char	*p;
     static char	*(lines[]) =
     {
-	N_("VIM - Vi IMproved"),
+	N_("Luim - Lua optimized editor"),
 	"",
 	N_("version "),
-	N_("by Bram Moolenaar et al."),
+	N_("by alarm1_1 "),
 #ifdef MODIFIED_BY
 	" ",
 #endif
-	N_("Vim is open source and freely distributable"),
+	N_("Luim is open source and freely distributable"),
 	"",
 	N_("Help poor children in Uganda!"),
 	N_("type  :help Kuwasha<Enter>    for information "),
