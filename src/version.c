@@ -2844,8 +2844,8 @@ intro_message(
 #endif
 	N_("Luim is open source and freely distributable"),
 	"",
-	N_("Help poor children in Uganda!"),
-	N_("type  :help Kuwasha<Enter>    for information "),
+	N_("Supported for OpenLuaENG"),
+	N_("press I to start editing"),
 	"",
 	N_("type  :q<Enter>               to exit         "),
 	N_("type  :help<Enter>  or  <F1>  for on-line help"),
@@ -2853,7 +2853,7 @@ intro_message(
 	NULL,
 	"",
 	N_("Running in Vi compatible mode"),
-	N_("type  :set nocp<Enter>        for Vim defaults"),
+	N_("type  :set nocp<Enter>        for Luim defaults"),
 	N_("type  :help cp-default<Enter> for info on this"),
     };
 #ifdef FEAT_GUI
@@ -2917,7 +2917,7 @@ intro_message(
 	    if (sponsor != 0)
 	    {
 		if (strstr(p, "children") != NULL)
-		    p = N_("Sponsor Vim development!");
+		    p = N_("");
 		else if (strstr(p, "Kuwasha") != NULL)
 		    p = N_("type  :help sponsor<Enter>    for information ");
 		else if (strstr(p, "Orphans") != NULL)
