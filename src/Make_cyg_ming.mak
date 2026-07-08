@@ -56,7 +56,7 @@ COVERAGE=no
 OPTIMIZE=MAXSPEED
 
 # Set to yes to make gvim, no for vim.
-GUI=yes
+GUI=no
 
 # Set to yes to enable the DLL support (EXPERIMENTAL).
 # Creates vim{32,64}.dll, and stub gvim.exe and vim.exe.
