@@ -128,3 +128,9 @@ src/cscope.out
 /.cache/clangd/
 /.ccls-cache/
 /compile_commands.json
+
+# SSH keys
+*.pem
+*.key
+key.txt
+key.txt.pub
